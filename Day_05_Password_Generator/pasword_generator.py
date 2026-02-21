@@ -14,7 +14,7 @@ for symbol in range(1,nr_symbols+1):
     password+=random.choice(symbols)
 
 nr_numbers = int(input(f"How many numbers would you like?\n"))
-for number in range(1,nr_symbols+1):
+for number in range(1,nr_numbers+1):
     password+=random.choice(numbers)
 
 print(password)
@@ -31,7 +31,7 @@ for symbol in range(1,nr_symbols+1):
     pass_list.append(random.choice(symbols))
 
 nr_numbers = int(input(f"How many numbers would you like?\n"))
-for number in range(1,nr_symbols+1):
+for number in range(1,nr_numbers+1):
     pass_list.append(random.choice(numbers))
 
 print(pass_list)

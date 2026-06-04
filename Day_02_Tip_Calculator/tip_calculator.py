@@ -4,6 +4,6 @@ tip = int(input("What percentage tip would you like to give? 10 12 15 "))
 people = int(input("How many people to split the bill? "))
 total_bill =  tip/100 * bill + bill
 print(f"total bill:${total_bill}")
-pay_per_peron= (total_bill/people)
+pay_per_person= (total_bill/people)
 print(f"Each person should pay: ${pay_per_peron}")
 

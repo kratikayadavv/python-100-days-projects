@@ -1,4 +1,4 @@
-Day 18 – Hirst Painting 🎨
+Day 18 – Hirst Painting 
 
 A Python Turtle project inspired by Damien Hirst’s dot paintings.
 
